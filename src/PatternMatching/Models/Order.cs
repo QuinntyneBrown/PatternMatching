@@ -1,6 +1,5 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-using Microsoft.EntityFrameworkCore;
 
 namespace PatternMatching.Models
 {
@@ -8,7 +7,6 @@ namespace PatternMatching.Models
     {
         [Key]
         public Guid OrderId { get; set; }
-
         public Category Category { get; set; }
         public int ItemId { get; set; }
         public int Quantity { get; set; }

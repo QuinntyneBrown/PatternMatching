@@ -11,7 +11,7 @@ namespace PatternMatching
         {
             var records = 26;
 
-            if(records is > 25 and < 35)
+            if (records is > 25 and < 35)
             {
                 Console.WriteLine("Pattern Matching Basic!");
             }
@@ -71,9 +71,6 @@ namespace PatternMatching
             {
                 Category.Pants => "Pants",
             };
-
-
-
         }
     }
 }
